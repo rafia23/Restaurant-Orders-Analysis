@@ -63,18 +63,13 @@ The primary objective of this project is to answer business questions such as:
 
 This project applies several important SQL concepts, including:
 
-- SELECT statements
-- Filtering and sorting
-- Aggregate functions (`COUNT`, `SUM`, `AVG`)
-- `GROUP BY`
-- `ORDER BY`
-- Table joins
-- `LEFT JOIN`
+- Aggregate Functions (`COUNT`, `SUM`, `AVG`)
+- Joins (`INNER JOIN`, `LEFT JOIN`)
 - Common Table Expressions (CTEs)
 - Window Functions (`RANK()`, `OVER()`)
-- Self Join (Market Basket Analysis)
-- Date & Time Functions
+- Self Joins (Market Basket Analysis)
 - CASE Statements
+- Date & Time Functions
 
 ---
 
