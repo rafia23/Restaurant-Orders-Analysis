@@ -135,6 +135,34 @@ The analysis provides insights that can help restaurant managers:
 
 ---
 
+## Key Insights
+
+### Revenue & Sales
+
+- 🍝 **Italian cuisine** was the highest revenue-generating category, contributing **31.07%** of the restaurant's total revenue.
+- 🥩 **Korean Beef Bowl** was the highest revenue-generating menu item, producing **over $10,000** in sales.
+- Within each cuisine category, the top revenue-generating menu items were:
+  - **American:** Cheeseburger
+  - **Italian:** Spaghetti & Meatballs
+  - **Asian:** Korean Beef Bowl
+  - **Mexican:** Steak Torta
+- 💳 The **highest-value order totaled $192.15**, which is **more than six times the average order value**, highlighting the presence of occasional high-value customers.
+
+### Customer Purchasing Behavior
+
+- 💰 The **average order value** was **$29.80**.
+- 🛒 Customers purchased an average of **2.25 items per order**.
+- 🍔 The most frequently purchased item combination was **Edamame + Hamburger**, suggesting an opportunity to introduce combo meals or bundle promotions.
+
+### Operational Insights
+
+- 🕛 **12:00 PM** was the busiest hour of the day, recording both the **highest number of orders** and the **highest revenue**.
+- ✅ Every menu item was ordered at least once during the analysis period, indicating that no menu item was completely overlooked by customers.
+
+
+---
+
+
 ## Future Improvements
 
 Possible extensions to this project include:
@@ -142,4 +170,4 @@ Possible extensions to this project include:
 - Building an interactive Power BI dashboard using the same dataset.
 - Enhancing the analysis with more advanced SQL techniques, including additional window functions and analytical queries.
 
----
+
