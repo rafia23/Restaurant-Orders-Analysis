@@ -75,7 +75,8 @@ ORDER BY total_revenue DESC;
 SELECT category, 
 ROUND(SUM(price) * 100 / SUM(SUM(price)) OVER (),2) AS revenue_percentage
 FROM menu_items m JOIN order_details o ON m.menu_item_id = o.item_id
-GROUP BY category;
+GROUP BY category
+ORDER BY revenue_percentage DESC;
 
 -- What were the top 5 menu items that generated the highest revenue?
 SELECT item_name, SUM(price) AS total_revenue
